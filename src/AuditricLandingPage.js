@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function AuditricLandingPage() {
   return (
     <div className="min-h-screen bg-white text-gray-800 font-sans">
