@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AuditricLandingPage/static/css/main.83c749e7.css",
+    "main.js": "/AuditricLandingPage/static/js/main.c33e0a57.js",
+    "static/js/488.c7241c6a.chunk.js": "/AuditricLandingPage/static/js/488.c7241c6a.chunk.js",
+    "index.html": "/AuditricLandingPage/index.html",
+    "main.83c749e7.css.map": "/AuditricLandingPage/static/css/main.83c749e7.css.map",
+    "main.c33e0a57.js.map": "/AuditricLandingPage/static/js/main.c33e0a57.js.map",
+    "488.c7241c6a.chunk.js.map": "/AuditricLandingPage/static/js/488.c7241c6a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83c749e7.css",
+    "static/js/main.c33e0a57.js"
+  ]
+}
