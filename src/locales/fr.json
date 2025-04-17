@@ -139,7 +139,8 @@
       }
     },
     "cta": "Commencer",
-    "contact": "Contacter les ventes"
+    "contact": "Contacter les ventes",
+    "popular": "Populaire"
   },
   "login": {
     "title": "Connectez-vous à votre compte",

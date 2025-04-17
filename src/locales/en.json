@@ -139,7 +139,8 @@
       }
     },
     "cta": "Get Started",
-    "contact": "Contact Sales"
+    "contact": "Contact Sales",
+    "popular": "Popular"
   },
   "login": {
     "title": "Sign in to your account",
