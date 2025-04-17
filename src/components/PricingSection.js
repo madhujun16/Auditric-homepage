@@ -15,7 +15,7 @@ const PricingCard = ({ title, price, description, features, isPopular, onSelect 
     >
       {isPopular && (
         <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-          <span className="bg-blue-500 text-white px-3 py-0.5 rounded-full text-xs font-medium">
+          <span className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-3 py-0.5 rounded-full text-xs font-medium shadow-md">
             {t('pricing.popular')}
           </span>
         </div>
@@ -74,19 +74,19 @@ const PricingSection = () => {
 
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <PricingCard
+            title={t('pricing.baseLicense.title')}
+            price={t('pricing.baseLicense.basePrice')}
+            description={t('pricing.baseLicense.includes')}
+            features={t('pricing.baseLicense.baseFeatures', { returnObjects: true })}
+            onSelect={handleContactSales}
+          />
+          <PricingCard
             title={t('pricing.fullLicense.title')}
             price={t('pricing.fullLicense.price')}
             description={t('pricing.fullLicense.description')}
             features={t('pricing.fullLicense.features', { returnObjects: true })}
             isPopular={true}
             onSelect={handleGetStarted}
-          />
-          <PricingCard
-            title={t('pricing.baseLicense.title')}
-            price={t('pricing.baseLicense.basePrice')}
-            description={t('pricing.baseLicense.includes')}
-            features={t('pricing.baseLicense.baseFeatures', { returnObjects: true })}
-            onSelect={handleContactSales}
           />
         </div>
 
