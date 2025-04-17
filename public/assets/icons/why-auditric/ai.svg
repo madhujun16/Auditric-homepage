@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="32" cy="32" r="30" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+  <path d="M24 32C24 27.5817 27.5817 24 32 24C36.4183 24 40 27.5817 40 32C40 36.4183 36.4183 40 32 40" stroke="#2196F3" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 24V20" stroke="#2196F3" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 44V40" stroke="#2196F3" stroke-width="2" stroke-linecap="round"/>
+  <path d="M44 32H40" stroke="#2196F3" stroke-width="2" stroke-linecap="round"/>
+  <path d="M24 32H20" stroke="#2196F3" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 32L36 36" stroke="#2196F3" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 32L28 28" stroke="#2196F3" stroke-width="2" stroke-linecap="round"/>
+</svg> 

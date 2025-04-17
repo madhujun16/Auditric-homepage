@@ -1,0 +1,68 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#F0F7FF" />
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="200" r="100" fill="#E6F0FF" opacity="0.5" />
+  <circle cx="1000" cy="600" r="140" fill="#E6F0FF" opacity="0.5" />
+  <circle cx="600" cy="300" r="60" fill="#E6F0FF" opacity="0.5" />
+  
+  <!-- Grid pattern -->
+  <path d="M0 100 L1200 100" stroke="#E6F0FF" stroke-width="1" />
+  <path d="M0 200 L1200 200" stroke="#E6F0FF" stroke-width="1" />
+  <path d="M0 300 L1200 300" stroke="#E6F0FF" stroke-width="1" />
+  <path d="M0 400 L1200 400" stroke="#E6F0FF" stroke-width="1" />
+  <path d="M0 500 L1200 500" stroke="#E6F0FF" stroke-width="1" />
+  <path d="M0 600 L1200 600" stroke="#E6F0FF" stroke-width="1" />
+  
+  <path d="M100 0 L100 630" stroke="#E6F0FF" stroke-width="1" />
+  <path d="M200 0 L200 630" stroke="#E6F0FF" stroke-width="1" />
+  <path d="M300 0 L300 630" stroke="#E6F0FF" stroke-width="1" />
+  <path d="M400 0 L400 630" stroke="#E6F0FF" stroke-width="1" />
+  <path d="M500 0 L500 630" stroke="#E6F0FF" stroke-width="1" />
+  <path d="M600 0 L600 630" stroke="#E6F0FF" stroke-width="1" />
+  <path d="M700 0 L700 630" stroke="#E6F0FF" stroke-width="1" />
+  <path d="M800 0 L800 630" stroke="#E6F0FF" stroke-width="1" />
+  <path d="M900 0 L900 630" stroke="#E6F0FF" stroke-width="1" />
+  <path d="M1000 0 L1000 630" stroke="#E6F0FF" stroke-width="1" />
+  <path d="M1100 0 L1100 630" stroke="#E6F0FF" stroke-width="1" />
+  
+  <!-- Logo and text container -->
+  <rect x="300" y="150" width="600" height="330" rx="20" fill="white" stroke="#3B82F6" stroke-width="4" />
+  
+  <!-- Logo -->
+  <circle cx="450" cy="250" r="50" fill="#3B82F6" />
+  <path d="M430 250 L450 270 L480 230" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <!-- Company name -->
+  <text x="520" y="265" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#3B82F6">Auditric</text>
+  
+  <!-- Tagline -->
+  <text x="450" y="320" font-family="Arial, sans-serif" font-size="24" fill="#4B5563">Smart Compliance Automation</text>
+  
+  <!-- Feature icons -->
+  <rect x="350" y="380" width="80" height="80" rx="10" fill="#3B82F6" />
+  <rect x="370" y="400" width="40" height="8" rx="2" fill="white" />
+  <rect x="370" y="420" width="30" height="8" rx="2" fill="white" />
+  <rect x="370" y="440" width="35" height="8" rx="2" fill="white" />
+  
+  <rect x="450" y="380" width="80" height="80" rx="10" fill="#10B981" />
+  <path d="M470 420 L490 440 L520 400" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <rect x="550" y="380" width="80" height="80" rx="10" fill="#3B82F6" />
+  <rect x="570" y="400" width="40" height="8" rx="2" fill="white" />
+  <rect x="570" y="420" width="30" height="8" rx="2" fill="white" />
+  <rect x="570" y="440" width="35" height="8" rx="2" fill="white" />
+  
+  <rect x="650" y="380" width="80" height="80" rx="10" fill="#10B981" />
+  <path d="M670 420 L690 440 L720 400" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <!-- Feature labels -->
+  <text x="390" y="480" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#4B5563">AI-Powered</text>
+  <text x="490" y="480" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#4B5563">Compliance</text>
+  <text x="590" y="480" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#4B5563">Real-time</text>
+  <text x="690" y="480" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#4B5563">Monitoring</text>
+  
+  <!-- Website URL -->
+  <text x="600" y="550" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#3B82F6">auditric.com</text>
+</svg> 

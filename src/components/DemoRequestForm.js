@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const DemoRequestForm = ({ isOpen, onClose }) => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -85,10 +87,11 @@ const DemoRequestForm = ({ isOpen, onClose }) => {
             onClick={e => e.stopPropagation()}
           >
             <div className="flex justify-between items-center mb-4">
-              <h2 className="text-2xl font-bold text-blue-800">Request a Demo</h2>
+              <h2 className="text-2xl font-bold text-blue-800">{t('form.title')}</h2>
               <button 
                 onClick={onClose}
                 className="text-gray-500 hover:text-gray-700"
+                aria-label={t('form.close')}
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -106,7 +109,7 @@ const DemoRequestForm = ({ isOpen, onClose }) => {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Thank you! We'll be in touch soon.</span>
+                  <span>{t('form.success')}</span>
                 </div>
               </motion.div>
             ) : submitStatus === 'error' ? (
@@ -119,13 +122,13 @@ const DemoRequestForm = ({ isOpen, onClose }) => {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
                   </svg>
-                  <span>There was an error submitting your request. Please try again.</span>
+                  <span>{t('form.error')}</span>
                 </div>
               </motion.div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
+                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">{t('form.name')} *</label>
                   <input
                     type="text"
                     id="name"
@@ -134,11 +137,12 @@ const DemoRequestForm = ({ isOpen, onClose }) => {
                     onChange={handleChange}
                     required
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    aria-required="true"
                   />
                 </div>
                 
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email Address *</label>
+                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">{t('form.email')} *</label>
                   <input
                     type="email"
                     id="email"
@@ -147,11 +151,12 @@ const DemoRequestForm = ({ isOpen, onClose }) => {
                     onChange={handleChange}
                     required
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    aria-required="true"
                   />
                 </div>
                 
                 <div>
-                  <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-1">Company Name *</label>
+                  <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-1">{t('form.company')} *</label>
                   <input
                     type="text"
                     id="company"
@@ -160,11 +165,12 @@ const DemoRequestForm = ({ isOpen, onClose }) => {
                     onChange={handleChange}
                     required
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    aria-required="true"
                   />
                 </div>
                 
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">{t('form.phone')}</label>
                   <input
                     type="tel"
                     id="phone"
@@ -176,7 +182,7 @@ const DemoRequestForm = ({ isOpen, onClose }) => {
                 </div>
                 
                 <div>
-                  <label htmlFor="industry" className="block text-sm font-medium text-gray-700 mb-1">Industry</label>
+                  <label htmlFor="industry" className="block text-sm font-medium text-gray-700 mb-1">{t('form.industry')}</label>
                   <select
                     id="industry"
                     name="industry"
@@ -184,18 +190,18 @@ const DemoRequestForm = ({ isOpen, onClose }) => {
                     onChange={handleChange}
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   >
-                    <option value="">Select an industry</option>
-                    <option value="Finance">Finance</option>
-                    <option value="Healthcare">Healthcare</option>
-                    <option value="Retail">Retail</option>
-                    <option value="Manufacturing">Manufacturing</option>
-                    <option value="Technology">Technology</option>
-                    <option value="Other">Other</option>
+                    <option value="">{t('form.selectIndustry')}</option>
+                    <option value="Finance">{t('industries.finance')}</option>
+                    <option value="Healthcare">{t('industries.healthcare')}</option>
+                    <option value="Retail">{t('industries.retail')}</option>
+                    <option value="Manufacturing">{t('industries.manufacturing')}</option>
+                    <option value="Technology">{t('form.technology')}</option>
+                    <option value="Other">{t('form.other')}</option>
                   </select>
                 </div>
                 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">{t('form.message')}</label>
                   <textarea
                     id="message"
                     name="message"
@@ -212,7 +218,7 @@ const DemoRequestForm = ({ isOpen, onClose }) => {
                     disabled={isSubmitting}
                     className="w-full py-3 px-4 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
                   >
-                    {isSubmitting ? 'Submitting...' : 'Request Demo'}
+                    {isSubmitting ? t('form.submitting') : t('form.submit')}
                   </button>
                 </div>
               </form>
