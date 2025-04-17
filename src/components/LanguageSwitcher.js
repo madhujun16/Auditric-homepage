@@ -23,7 +23,7 @@ const LanguageSwitcher = () => {
     <select
       onChange={handleLanguageChange}
       value={i18n.language}
-      className="bg-gray-800 text-white text-sm p-1 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+      className="bg-white text-gray-800 text-sm p-1 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 appearance-none"
       aria-label="Select language"
     >
       {languages.map((lang) => (

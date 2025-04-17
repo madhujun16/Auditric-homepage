@@ -217,7 +217,7 @@ export default function AuditricLandingPage() {
         whileInView={{ opacity: 1, y: 0 }} 
         viewport={{ once: true }} 
         transition={{ duration: 0.8 }} 
-        className="relative px-6 py-32 bg-gradient-to-br from-blue-50 to-blue-100 overflow-hidden shadow-2xl"
+        className="relative px-6 py-12 bg-gradient-to-br from-blue-50 to-blue-100 overflow-hidden shadow-2xl"
       >
         <motion.div 
           className="absolute inset-0 bg-grid-pattern opacity-10"
@@ -245,7 +245,7 @@ export default function AuditricLandingPage() {
                   transition={{ duration: 1, repeat: Infinity }}
                   className="w-1.5 h-1.5 bg-green-500 rounded-full"
                 />
-                Trusted by 500+ Companies
+                Trusted by 50+ Companies
               </span>
               <span className="px-2 py-0.5 bg-purple-100 text-purple-700 rounded-full text-xs font-medium">
                 {t('hero.tagline')}
@@ -268,6 +268,15 @@ export default function AuditricLandingPage() {
               transition={{ delay: 0.4 }}
             >
               {t('hero.subtitle')}
+            </motion.p>
+            
+            <motion.p 
+              className="text-xl text-gray-700 mb-8"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.5 }}
+            >
+              Trusted by 50+ companies and 200+ compliance professionals.
             </motion.p>
             
             <motion.div 
@@ -324,7 +333,7 @@ export default function AuditricLandingPage() {
                 ))}
               </div>
               <div className="text-sm text-gray-600">
-                <span className="font-semibold">2,000+</span> compliance professionals trust Auditric
+                <span className="font-semibold">2,00+</span> compliance professionals trust Auditric
               </div>
             </motion.div>
           </div>
@@ -577,7 +586,7 @@ export default function AuditricLandingPage() {
       </motion.section>
 
       {/* Industries Section */}
-      <section className="py-12 bg-white shadow-2xl relative z-10">
+      <section id="industries" className="py-12 bg-white shadow-2xl relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
