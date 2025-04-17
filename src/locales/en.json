@@ -6,7 +6,8 @@
     "industries": "Industries",
     "pricing": "Pricing",
     "requestdemo": "Request Demo",
-    "getStarted": "Get Started"
+    "getStarted": "Get Started",
+    "login": "Login"
   },
   "hero": {
     "title": "Transform Your Business with AI-Powered GRC Software",
@@ -139,5 +140,25 @@
     },
     "cta": "Get Started",
     "contact": "Contact Sales"
+  },
+  "login": {
+    "title": "Sign in to your account",
+    "subtitle": "Welcome back to Auditric GRC",
+    "email": "Email address",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "signIn": "Sign in",
+    "signingIn": "Signing in...",
+    "orContinueWith": "Or continue with",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up",
+    "errors": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "passwordRequired": "Password is required"
+    }
   }
 } 

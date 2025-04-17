@@ -6,20 +6,21 @@
     "industries": "Industries",
     "pricing": "Tarification",
     "requestdemo": "Demander une démo",
-    "getStarted": "Commencer"
+    "getStarted": "Commencer",
+    "login": "Connexion"
   },
   "hero": {
-    "title": "Transformez votre entreprise avec un logiciel GRC alimenté par l'IA",
-    "subtitle": "Optimisez vos processus de gouvernance, de risque et de conformité avec nos solutions d'IA de pointe",
+    "title": "Transformez votre entreprise avec notre logiciel GRC propulsé par l'IA",
+    "subtitle": "Optimisez vos processus de gouvernance, de risque et de conformité avec nos solutions IA de pointe",
     "cta": "Essai gratuit",
     "learnMore": "En savoir plus",
     "tagline": "La plateforme GRC tout-en-un"
   },
   "features": {
     "title": "Pourquoi choisir Auditric GRC ?",
-    "subtitle": "Découvrez comment notre plateforme GRC alimentée par l'IA révolutionne la gestion de la gouvernance, des risques et de la conformité",
+    "subtitle": "Découvrez comment notre plateforme GRC propulsée par l'IA révolutionne la gestion de la gouvernance, des risques et de la conformité",
     "feature1": {
-      "title": "Analyse alimentée par l'IA",
+      "title": "Analyse propulsée par l'IA",
       "description": "Exploitez des algorithmes d'apprentissage automatique avancés pour analyser de vastes quantités de données avec une précision sans précédent"
     },
     "feature2": {
@@ -40,8 +41,8 @@
     "subtitle": "Solutions adaptées à divers secteurs",
     "finance": "Finance",
     "healthcare": "Santé",
-    "retail": "Commerce de détail",
-    "manufacturing": "Fabrication"
+    "retail": "Commerce",
+    "manufacturing": "Industrie"
   },
   "form": {
     "title": "Demander une démo",
@@ -79,9 +80,9 @@
     "message": "Chargement..."
   },
   "notFound": {
-    "title": "Page Non Trouvée",
+    "title": "Page non trouvée",
     "message": "La page que vous recherchez n'existe pas ou a été déplacée.",
-    "home": "Retour à l'Accueil"
+    "home": "Retour à l'accueil"
   },
   "cookieConsent": {
     "message": "Nous utilisons des cookies pour améliorer votre expérience. En continuant à visiter ce site, vous acceptez notre utilisation des cookies.",
@@ -89,55 +90,75 @@
     "decline": "Refuser"
   },
   "pricing": {
-    "title": "Tarification & Modèle d'Accès aux Fonctionnalités",
+    "title": "Tarification et modèle d'accès aux fonctionnalités",
     "subtitle": "Choisissez le forfait qui vous convient le mieux",
     "fullLicense": {
-      "title": "Licence Complète (Tout Compris)",
-      "price": "$X/utilisateur/mois",
+      "title": "Licence complète (tout compris)",
+      "price": "X€/utilisateur/mois",
       "description": "Coût plus élevé pour un accès complet à la plateforme",
-      "includes": "Inclut Tous les Modules :",
+      "includes": "Inclut tous les modules :",
       "features": [
-        "Authentification & Gestion des Rôles",
-        "Tableau de Bord",
-        "Panneau d'Administration (Gestion des Utilisateurs & Licences)",
-        "Registre des Risques",
-        "Plan d'Audit & Journal des Constatations",
-        "Suivi des Incidents",
-        "Gestionnaire de Politiques",
-        "Gestionnaire de Tâches",
-        "Listes de Vérification (Alimentation, Santé, etc.)",
-        "Surveillance Continue de la Conformité",
-        "Copilote IA (Insights, Assistant d'Audit)",
-        "Système de Notification (Email/SMS/Push)",
-        "Rapports (Téléchargeables/Exportables)"
+        "Authentification et gestion des rôles",
+        "Tableau de bord",
+        "Panneau d'administration (gestion des utilisateurs et des licences)",
+        "Registre des risques",
+        "Plan d'audit et journal des constatations",
+        "Suivi des incidents",
+        "Gestionnaire de politiques",
+        "Gestionnaire de tâches",
+        "Listes de contrôle (Alimentation, Santé, etc.)",
+        "Surveillance continue de la conformité",
+        "Copilote IA (Insights, Assistant d'audit)",
+        "Système de notification (Email/SMS/Push)",
+        "Rapports (téléchargeables/exportables)"
       ]
     },
     "baseLicense": {
-      "title": "Licence de Base + Modules Complémentaires",
-      "basePrice": "$Y Base/utilisateur/mois",
+      "title": "Licence de base + modules complémentaires",
+      "basePrice": "Y€ Base/utilisateur/mois",
       "includes": "Inclut :",
       "baseFeatures": [
-        "Authentification & Gestion des Rôles",
-        "Tableau de Bord",
-        "Panneau d'Administration",
-        "Système de Notification",
+        "Authentification et gestion des rôles",
+        "Tableau de bord",
+        "Panneau d'administration",
+        "Système de notification",
         "Rapports"
       ],
       "addOns": {
-        "title": "Modules Complémentaires (Chacun à $Y/utilisateur/mois) :",
+        "title": "Modules complémentaires (Y€/utilisateur/mois chacun) :",
         "features": [
-          "Registre des Risques",
-          "Plan d'Audit & Journal des Constatations",
-          "Suivi des Incidents",
-          "Gestionnaire de Politiques",
-          "Gestionnaire de Tâches",
-          "Listes de Vérification (Sécurité Alimentaire, Conformité Santé)",
-          "Surveillance Continue de la Conformité",
-          "Copilote IA (Insights & Assistant d'Audit)"
+          "Registre des risques",
+          "Plan d'audit et journal des constatations",
+          "Suivi des incidents",
+          "Gestionnaire de politiques",
+          "Gestionnaire de tâches",
+          "Listes de contrôle (Sécurité alimentaire, Conformité sanitaire)",
+          "Surveillance continue de la conformité",
+          "Copilote IA (Insights et Assistant d'audit)"
         ]
       }
     },
     "cta": "Commencer",
-    "contact": "Contacter les Ventes"
+    "contact": "Contacter les ventes"
+  },
+  "login": {
+    "title": "Connectez-vous à votre compte",
+    "subtitle": "Bienvenue sur Auditric GRC",
+    "email": "Adresse e-mail",
+    "emailPlaceholder": "Entrez votre e-mail",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "rememberMe": "Se souvenir de moi",
+    "forgotPassword": "Mot de passe oublié ?",
+    "signIn": "Se connecter",
+    "signingIn": "Connexion en cours...",
+    "orContinueWith": "Ou continuer avec",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "signUp": "S'inscrire",
+    "errors": {
+      "emailRequired": "L'e-mail est requis",
+      "emailInvalid": "Veuillez entrer une adresse e-mail valide",
+      "passwordRequired": "Le mot de passe est requis"
+    }
   }
 } 

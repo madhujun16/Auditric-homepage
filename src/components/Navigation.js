@@ -13,6 +13,11 @@ export default function Navigation({ onRequestDemo }) {
     { name: t('navbar.pricing'), href: '#pricing' },
   ];
 
+  const handleLogin = () => {
+    // Show login form or redirect to login page
+    window.location.href = '/login.html';
+  };
+
   return (
     <nav className="bg-white shadow-lg fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -37,6 +42,12 @@ export default function Navigation({ onRequestDemo }) {
           </div>
           <div className="flex items-center space-x-4">
             <LanguageSwitcher />
+            <button
+              onClick={handleLogin}
+              className="hidden sm:inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+            >
+              {t('navbar.login')}
+            </button>
             <button
               onClick={onRequestDemo}
               className="hidden sm:inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
@@ -97,8 +108,14 @@ export default function Navigation({ onRequestDemo }) {
             </a>
           ))}
           <button
+            onClick={handleLogin}
+            className="block w-full text-left pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors duration-200"
+          >
+            {t('navbar.login')}
+          </button>
+          <button
             onClick={onRequestDemo}
-            className="w-full mt-4 mx-4 px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+            className="block w-full text-left pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors duration-200"
           >
             {t('navbar.requestdemo')}
           </button>
