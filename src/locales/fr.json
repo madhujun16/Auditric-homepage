@@ -2,54 +2,88 @@
   "navbar": {
     "home": "Accueil",
     "features": "Fonctionnalités",
+    "howitworks": "Comment ça marche",
     "industries": "Industries",
-    "pricing": "Tarifs",
-    "contact": "Contact",
-    "login": "Connexion",
+    "requestdemo": "Demander une démo",
     "getStarted": "Commencer"
   },
   "hero": {
-    "title": "Transformez Votre Entreprise avec l'Audit Propulsé par l'IA",
+    "title": "Transformez votre entreprise avec l'audit alimenté par l'IA",
     "subtitle": "Optimisez vos processus d'audit, réduisez les coûts et améliorez la précision avec nos solutions d'IA de pointe",
-    "cta": "Essai Gratuit",
-    "learnMore": "En Savoir Plus"
+    "cta": "Essai gratuit",
+    "learnMore": "En savoir plus"
   },
   "features": {
     "title": "Pourquoi Auditric ?",
-    "subtitle": "Découvrez comment notre plateforme propulsée par l'IA révolutionne le processus d'audit",
+    "subtitle": "Découvrez comment notre plateforme alimentée par l'IA révolutionne le processus d'audit",
     "feature1": {
-      "title": "Analyse par IA",
+      "title": "Analyse alimentée par l'IA",
       "description": "Exploitez des algorithmes d'apprentissage automatique avancés pour analyser de vastes quantités de données avec une précision sans précédent"
     },
     "feature2": {
-      "title": "Surveillance en Temps Réel",
+      "title": "Surveillance en temps réel",
       "description": "Surveillez vos processus métier en temps réel et recevez des alertes instantanées pour les problèmes potentiels"
     },
     "feature3": {
-      "title": "Gestion de la Conformité",
+      "title": "Gestion de la conformité",
       "description": "Restez conforme aux réglementations et normes en constante évolution dans différents secteurs"
     },
     "feature4": {
-      "title": "Rapports Personnalisables",
+      "title": "Rapports personnalisables",
       "description": "Générez des rapports détaillés et personnalisables qui fournissent des informations exploitables pour votre entreprise"
     }
   },
   "industries": {
-    "title": "Industries que Nous Servons",
+    "title": "Industries que nous servons",
     "subtitle": "Solutions adaptées à divers secteurs",
     "finance": "Finance",
     "healthcare": "Santé",
-    "retail": "Commerce",
-    "manufacturing": "Industrie"
+    "retail": "Commerce de détail",
+    "manufacturing": "Fabrication"
+  },
+  "form": {
+    "title": "Demander une démo",
+    "close": "Fermer le formulaire",
+    "name": "Nom complet",
+    "email": "Adresse e-mail",
+    "company": "Nom de l'entreprise",
+    "phone": "Numéro de téléphone",
+    "industry": "Industrie",
+    "selectIndustry": "Sélectionnez une industrie",
+    "technology": "Technologie",
+    "other": "Autre",
+    "message": "Message",
+    "submit": "Demander une démo",
+    "submitting": "Envoi en cours...",
+    "success": "Merci ! Nous vous contacterons bientôt.",
+    "error": "Une erreur s'est produite lors de l'envoi de votre demande. Veuillez réessayer."
   },
   "footer": {
     "company": "Entreprise",
-    "about": "À Propos",
+    "about": "À propos",
     "careers": "Carrières",
     "contact": "Contact",
-    "legal": "Mentions Légales",
-    "privacy": "Politique de Confidentialité",
-    "terms": "Conditions d'Utilisation",
-    "copyright": "© 2024 Auditric. Tous droits réservés."
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyright": "© 2025 Auditric. Tous droits réservés."
+  },
+  "error": {
+    "title": "Oups ! Quelque chose s'est mal passé",
+    "message": "Nous nous excusons pour le désagrément. Veuillez essayer de rafraîchir la page.",
+    "refresh": "Rafraîchir la page"
+  },
+  "loading": {
+    "message": "Chargement..."
+  },
+  "notFound": {
+    "title": "Page Non Trouvée",
+    "message": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "home": "Retour à l'Accueil"
+  },
+  "cookieConsent": {
+    "message": "Nous utilisons des cookies pour améliorer votre expérience. En continuant à visiter ce site, vous acceptez notre utilisation des cookies.",
+    "accept": "Accepter",
+    "decline": "Refuser"
   }
 } 

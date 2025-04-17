@@ -2,10 +2,9 @@
   "navbar": {
     "home": "Home",
     "features": "Features",
+    "howitworks": "How It Works",
     "industries": "Industries",
-    "pricing": "Pricing",
-    "contact": "Contact",
-    "login": "Login",
+    "requestdemo": "Request Demo",
     "getStarted": "Get Started"
   },
   "hero": {
@@ -42,14 +41,49 @@
     "retail": "Retail",
     "manufacturing": "Manufacturing"
   },
+  "form": {
+    "title": "Request a Demo",
+    "close": "Close form",
+    "name": "Full Name",
+    "email": "Email Address",
+    "company": "Company Name",
+    "phone": "Phone Number",
+    "industry": "Industry",
+    "selectIndustry": "Select an industry",
+    "technology": "Technology",
+    "other": "Other",
+    "message": "Message",
+    "submit": "Request Demo",
+    "submitting": "Submitting...",
+    "success": "Thank you! We'll be in touch soon.",
+    "error": "There was an error submitting your request. Please try again."
+  },
   "footer": {
     "company": "Company",
-    "about": "About Us",
+    "about": "About",
     "careers": "Careers",
     "contact": "Contact",
     "legal": "Legal",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "copyright": "© 2024 Auditric. All rights reserved."
+    "terms": "Terms of Use",
+    "copyright": "© 2025 Auditric. All rights reserved."
+  },
+  "error": {
+    "title": "Oops! Something went wrong",
+    "message": "We apologize for the inconvenience. Please try refreshing the page.",
+    "refresh": "Refresh Page"
+  },
+  "loading": {
+    "message": "Loading..."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "The page you're looking for doesn't exist or has been moved.",
+    "home": "Back to Home"
+  },
+  "cookieConsent": {
+    "message": "We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.",
+    "accept": "Accept",
+    "decline": "Decline"
   }
 } 
