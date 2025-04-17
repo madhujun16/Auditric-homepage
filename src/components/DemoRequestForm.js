@@ -40,7 +40,7 @@ const DemoRequestForm = ({ isOpen, onClose }) => {
       // Append parameters to the URL
       const urlWithParams = `${scriptURL}?${params.toString()}`;
       
-      const response = await fetch(urlWithParams, {
+      await fetch(urlWithParams, {
         method: 'GET',
         mode: 'no-cors'
       });
