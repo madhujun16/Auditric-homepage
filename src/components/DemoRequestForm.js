@@ -29,13 +29,20 @@ const DemoRequestForm = ({ isOpen, onClose }) => {
       // Google Apps Script deployment URL
       const scriptURL = 'https://script.google.com/macros/s/AKfycbxs4Iq2rFQEBCswCh-Og86pVDd0Y-xG0r7lOL2xHIrlZ7FIlMF1rlRZItG4jgESHGI9/exec';
       
-      const response = await fetch(scriptURL, {
-        method: 'POST',
-        mode: 'no-cors',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData)
+      // Create URL parameters from form data
+      const params = new URLSearchParams();
+      params.append('name', formData.name || '');
+      params.append('email', formData.email || '');
+      params.append('company', formData.company || '');
+      params.append('interest', formData.industry || ''); // Using industry as interest
+      params.append('message', formData.message || '');
+      
+      // Append parameters to the URL
+      const urlWithParams = `${scriptURL}?${params.toString()}`;
+      
+      const response = await fetch(urlWithParams, {
+        method: 'GET',
+        mode: 'no-cors'
       });
       
       setSubmitStatus('success');

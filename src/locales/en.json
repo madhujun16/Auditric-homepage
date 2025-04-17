@@ -1,0 +1,55 @@
+{
+  "navbar": {
+    "home": "Home",
+    "features": "Features",
+    "industries": "Industries",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "login": "Login",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Transform Your Business with AI-Powered Auditing",
+    "subtitle": "Streamline your audit processes, reduce costs, and improve accuracy with our cutting-edge AI solutions",
+    "cta": "Start Free Trial",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Why Auditric?",
+    "subtitle": "Discover how our AI-powered platform revolutionizes the auditing process",
+    "feature1": {
+      "title": "AI-Powered Analysis",
+      "description": "Leverage advanced machine learning algorithms to analyze vast amounts of data with unprecedented accuracy"
+    },
+    "feature2": {
+      "title": "Real-time Monitoring",
+      "description": "Monitor your business processes in real-time and receive instant alerts for potential issues"
+    },
+    "feature3": {
+      "title": "Compliance Management",
+      "description": "Stay compliant with ever-changing regulations and standards across different industries"
+    },
+    "feature4": {
+      "title": "Customizable Reports",
+      "description": "Generate detailed, customizable reports that provide actionable insights for your business"
+    }
+  },
+  "industries": {
+    "title": "Industries We Serve",
+    "subtitle": "Tailored solutions for various sectors",
+    "finance": "Finance",
+    "healthcare": "Healthcare",
+    "retail": "Retail",
+    "manufacturing": "Manufacturing"
+  },
+  "footer": {
+    "company": "Company",
+    "about": "About Us",
+    "careers": "Careers",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2024 Auditric. All rights reserved."
+  }
+} 

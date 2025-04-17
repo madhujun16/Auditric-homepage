@@ -11,8 +11,7 @@ This document provides instructions on how to set up a Google Apps Script to han
    - Name
    - Email
    - Company
-   - Phone
-   - Industry
+   - Interest
    - Message
 
 ## Step 2: Create a Google Apps Script
@@ -23,42 +22,19 @@ This document provides instructions on how to set up a Google Apps Script to han
 ```javascript
 function doPost(e) {
   try {
-    // Parse the JSON data from the request
-    const data = JSON.parse(e.postData.contents);
-    
-    // Get the active spreadsheet and sheet
-    const ss = SpreadsheetApp.getActiveSpreadsheet();
-    const sheet = ss.getActiveSheet();
-    
-    // Get current timestamp
-    const timestamp = new Date();
-    
-    // Prepare row data
-    const rowData = [
-      timestamp,
-      data.name || '',
-      data.email || '',
-      data.company || '',
-      data.phone || '',
-      data.industry || '',
-      data.message || ''
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+    var data = [
+      new Date(),
+      e.parameter.name || "No Name",
+      e.parameter.email || "No Email",
+      e.parameter.company || "No Company",
+      e.parameter.interest || "No Interest",
+      e.parameter.message || "No Message"
     ];
-    
-    // Append the data to the sheet
-    sheet.appendRow(rowData);
-    
-    // Return success response
-    return ContentService.createTextOutput(JSON.stringify({
-      'result': 'success',
-      'message': 'Data saved successfully'
-    })).setMimeType(ContentService.MimeType.JSON);
-    
-  } catch (error) {
-    // Return error response
-    return ContentService.createTextOutput(JSON.stringify({
-      'result': 'error',
-      'message': error.toString()
-    })).setMimeType(ContentService.MimeType.JSON);
+    sheet.appendRow(data);
+    return ContentService.createTextOutput("Success");
+  } catch (err) {
+    return ContentService.createTextOutput("Error: " + err.message);
   }
 }
 ```

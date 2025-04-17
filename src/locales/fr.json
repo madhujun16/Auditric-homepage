@@ -1,0 +1,55 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "industries": "Industries",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "login": "Connexion",
+    "getStarted": "Commencer"
+  },
+  "hero": {
+    "title": "Transformez Votre Entreprise avec l'Audit Propulsé par l'IA",
+    "subtitle": "Optimisez vos processus d'audit, réduisez les coûts et améliorez la précision avec nos solutions d'IA de pointe",
+    "cta": "Essai Gratuit",
+    "learnMore": "En Savoir Plus"
+  },
+  "features": {
+    "title": "Pourquoi Auditric ?",
+    "subtitle": "Découvrez comment notre plateforme propulsée par l'IA révolutionne le processus d'audit",
+    "feature1": {
+      "title": "Analyse par IA",
+      "description": "Exploitez des algorithmes d'apprentissage automatique avancés pour analyser de vastes quantités de données avec une précision sans précédent"
+    },
+    "feature2": {
+      "title": "Surveillance en Temps Réel",
+      "description": "Surveillez vos processus métier en temps réel et recevez des alertes instantanées pour les problèmes potentiels"
+    },
+    "feature3": {
+      "title": "Gestion de la Conformité",
+      "description": "Restez conforme aux réglementations et normes en constante évolution dans différents secteurs"
+    },
+    "feature4": {
+      "title": "Rapports Personnalisables",
+      "description": "Générez des rapports détaillés et personnalisables qui fournissent des informations exploitables pour votre entreprise"
+    }
+  },
+  "industries": {
+    "title": "Industries que Nous Servons",
+    "subtitle": "Solutions adaptées à divers secteurs",
+    "finance": "Finance",
+    "healthcare": "Santé",
+    "retail": "Commerce",
+    "manufacturing": "Industrie"
+  },
+  "footer": {
+    "company": "Entreprise",
+    "about": "À Propos",
+    "careers": "Carrières",
+    "contact": "Contact",
+    "legal": "Mentions Légales",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "copyright": "© 2024 Auditric. Tous droits réservés."
+  }
+} 
