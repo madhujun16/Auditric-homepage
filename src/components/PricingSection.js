@@ -8,34 +8,34 @@ const PricingCard = ({ title, price, description, features, isPopular, onSelect 
 
   return (
     <motion.div
-      whileHover={{ y: -10 }}
-      className={`relative bg-white rounded-2xl shadow-xl p-8 ${
+      whileHover={{ y: -5 }}
+      className={`relative bg-white rounded-xl shadow-lg p-6 ${
         isPopular ? 'border-2 border-blue-500' : 'border border-gray-200'
       }`}
     >
       {isPopular && (
-        <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-          <span className="bg-blue-500 text-white px-4 py-1 rounded-full text-sm font-medium">
+        <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
+          <span className="bg-blue-500 text-white px-3 py-0.5 rounded-full text-xs font-medium">
             {t('pricing.popular')}
           </span>
         </div>
       )}
-      <div className="text-center mb-8">
-        <h3 className="text-2xl font-bold text-gray-900 mb-2">{title}</h3>
-        <div className="text-4xl font-bold text-blue-600 mb-2">{price}</div>
-        <p className="text-gray-600">{description}</p>
+      <div className="text-center mb-4">
+        <h3 className="text-xl font-bold text-gray-900 mb-1">{title}</h3>
+        <div className="text-2xl font-bold text-blue-600 mb-1">{price}</div>
+        <p className="text-sm text-gray-600">{description}</p>
       </div>
-      <ul className="space-y-4 mb-8">
+      <ul className="space-y-2 mb-4 text-sm">
         {features.map((feature, index) => (
           <li key={index} className="flex items-start">
-            <FaCheck className="text-green-500 mt-1 mr-3 flex-shrink-0" />
+            <FaCheck className="text-green-500 mt-0.5 mr-2 flex-shrink-0 text-xs" />
             <span className="text-gray-700">{feature}</span>
           </li>
         ))}
       </ul>
       <button
         onClick={onSelect}
-        className={`w-full py-3 px-6 rounded-lg font-medium transition-colors ${
+        className={`w-full py-2 px-4 rounded-lg font-medium transition-colors text-sm ${
           isPopular
             ? 'bg-blue-600 text-white hover:bg-blue-700'
             : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
@@ -61,18 +61,18 @@ const PricingSection = () => {
   };
 
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+    <section className="py-12 bg-gray-50">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-2">
             {t('pricing.title')}
           </h2>
-          <p className="text-xl text-gray-600">
+          <p className="text-lg text-gray-600">
             {t('pricing.subtitle')}
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 gap-6 mb-8">
           <PricingCard
             title={t('pricing.fullLicense.title')}
             price={t('pricing.fullLicense.price')}
@@ -90,18 +90,18 @@ const PricingSection = () => {
           />
         </div>
 
-        <div className="bg-white rounded-2xl shadow-lg p-8">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6">
+        <div className="bg-white rounded-xl shadow-lg p-6">
+          <h3 className="text-xl font-bold text-gray-900 mb-4">
             {t('pricing.baseLicense.addOns.title')}
           </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             {t('pricing.baseLicense.addOns.features', { returnObjects: true }).map(
               (feature, index) => (
                 <div
                   key={index}
-                  className="flex items-center space-x-3 text-gray-700"
+                  className="flex items-center space-x-2 text-gray-700 text-sm"
                 >
-                  <FaPlus className="text-blue-500 flex-shrink-0" />
+                  <FaPlus className="text-blue-500 flex-shrink-0 text-xs" />
                   <span>{feature}</span>
                 </div>
               )
