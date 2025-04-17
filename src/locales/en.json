@@ -9,14 +9,15 @@
     "getStarted": "Get Started"
   },
   "hero": {
-    "title": "Transform Your Business with AI-Powered Auditing",
-    "subtitle": "Streamline your audit processes, reduce costs, and improve accuracy with our cutting-edge AI solutions",
+    "title": "Transform Your Business with AI-Powered GRC Software",
+    "subtitle": "Streamline your governance, risk, and compliance processes with our cutting-edge AI solutions",
     "cta": "Start Free Trial",
-    "learnMore": "Learn More"
+    "learnMore": "Learn More",
+    "tagline": "The All-in-One GRC Platform"
   },
   "features": {
-    "title": "Why Auditric?",
-    "subtitle": "Discover how our AI-powered platform revolutionizes the auditing process",
+    "title": "Why Choose Auditric GRC?",
+    "subtitle": "Discover how our AI-powered GRC platform revolutionizes governance, risk, and compliance management",
     "feature1": {
       "title": "AI-Powered Analysis",
       "description": "Leverage advanced machine learning algorithms to analyze vast amounts of data with unprecedented accuracy"

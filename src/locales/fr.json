@@ -9,14 +9,15 @@
     "getStarted": "Commencer"
   },
   "hero": {
-    "title": "Transformez votre entreprise avec l'audit alimenté par l'IA",
-    "subtitle": "Optimisez vos processus d'audit, réduisez les coûts et améliorez la précision avec nos solutions d'IA de pointe",
+    "title": "Transformez votre entreprise avec un logiciel GRC alimenté par l'IA",
+    "subtitle": "Optimisez vos processus de gouvernance, de risque et de conformité avec nos solutions d'IA de pointe",
     "cta": "Essai gratuit",
-    "learnMore": "En savoir plus"
+    "learnMore": "En savoir plus",
+    "tagline": "La plateforme GRC tout-en-un"
   },
   "features": {
-    "title": "Pourquoi Auditric ?",
-    "subtitle": "Découvrez comment notre plateforme alimentée par l'IA révolutionne le processus d'audit",
+    "title": "Pourquoi choisir Auditric GRC ?",
+    "subtitle": "Découvrez comment notre plateforme GRC alimentée par l'IA révolutionne la gestion de la gouvernance, des risques et de la conformité",
     "feature1": {
       "title": "Analyse alimentée par l'IA",
       "description": "Exploitez des algorithmes d'apprentissage automatique avancés pour analyser de vastes quantités de données avec une précision sans précédent"

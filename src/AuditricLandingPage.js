@@ -237,7 +237,7 @@ export default function AuditricLandingPage() {
               initial={{ opacity: 0, y: 20 }} 
               animate={{ opacity: 1, y: 0 }} 
               transition={{ delay: 0.2, duration: 0.6 }} 
-              className="mb-2"
+              className="mb-2 flex flex-wrap gap-2"
             >
               <span className="px-2 py-0.5 bg-blue-100 text-blue-700 rounded-full text-xs font-medium inline-flex items-center gap-1">
                 <motion.span
@@ -246,6 +246,9 @@ export default function AuditricLandingPage() {
                   className="w-1.5 h-1.5 bg-green-500 rounded-full"
                 />
                 Trusted by 500+ Companies
+              </span>
+              <span className="px-2 py-0.5 bg-purple-100 text-purple-700 rounded-full text-xs font-medium">
+                {t('hero.tagline')}
               </span>
             </motion.div>
             
