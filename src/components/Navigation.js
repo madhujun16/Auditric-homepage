@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
 import LanguageSwitcher from './LanguageSwitcher';
 
-export default function Navigation() {
+export default function Navigation({ onRequestDemo }) {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
   const navigation = [
     { name: t('navbar.home'), href: '/' },
     { name: t('navbar.features'), href: '#features' },
-    { name: t('navbar.howitworks'), href: '#how-it-works' },
     { name: t('navbar.industries'), href: '#industries' },
+    { name: t('navbar.pricing'), href: '#pricing' },
   ];
 
   return (
@@ -20,9 +19,9 @@ export default function Navigation() {
         <div className="flex justify-between h-16">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-              <Link to="/" className="text-2xl font-bold text-blue-600">
+              <a href="/" className="text-2xl font-bold text-blue-600">
                 Auditric
-              </Link>
+              </a>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               {navigation.map((item) => (
@@ -36,8 +35,14 @@ export default function Navigation() {
               ))}
             </div>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center space-x-4">
             <LanguageSwitcher />
+            <button
+              onClick={onRequestDemo}
+              className="hidden sm:inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+            >
+              {t('navbar.requestdemo')}
+            </button>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="sm:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
@@ -91,6 +96,12 @@ export default function Navigation() {
               {item.name}
             </a>
           ))}
+          <button
+            onClick={onRequestDemo}
+            className="w-full mt-4 mx-4 px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+          >
+            {t('navbar.requestdemo')}
+          </button>
         </div>
       </div>
     </nav>
