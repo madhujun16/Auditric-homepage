@@ -85,5 +85,57 @@
     "message": "We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.",
     "accept": "Accept",
     "decline": "Decline"
+  },
+  "pricing": {
+    "title": "Pricing & Feature Access Model",
+    "subtitle": "Choose the plan that best fits your needs",
+    "fullLicense": {
+      "title": "Full License (All-Inclusive)",
+      "price": "$X/user/month",
+      "description": "Higher cost for full platform access",
+      "includes": "Includes All Modules:",
+      "features": [
+        "Authentication & Role Management",
+        "Dashboard",
+        "Admin Panel (User & License Management)",
+        "Risk Register",
+        "Audit Plan & Finding Log",
+        "Incident Tracker",
+        "Policy Manager",
+        "Task Manager",
+        "Checklists (Food, Healthcare, etc.)",
+        "Continuous Compliance Monitoring",
+        "AI Copilot (Insights, Audit Assistant)",
+        "Notification System (Email/SMS/Push)",
+        "Reports (Downloadable/Exportable)"
+      ]
+    },
+    "baseLicense": {
+      "title": "Base License + Modular Add-Ons",
+      "basePrice": "$Y Base/user/month",
+      "includes": "Includes:",
+      "baseFeatures": [
+        "Authentication & Role Management",
+        "Dashboard",
+        "Admin Panel",
+        "Notification System",
+        "Reports"
+      ],
+      "addOns": {
+        "title": "Add-On Modules (Each at $Y/user/month):",
+        "features": [
+          "Risk Register",
+          "Audit Plan & Finding Log",
+          "Incident Tracker",
+          "Policy Manager",
+          "Task Manager",
+          "Checklists (Food Safety, Healthcare Compliance)",
+          "Continuous Compliance Monitoring",
+          "AI Copilot (Insights & Audit Assistant)"
+        ]
+      }
+    },
+    "cta": "Get Started",
+    "contact": "Contact Sales"
   }
 } 

@@ -85,5 +85,57 @@
     "message": "Nous utilisons des cookies pour améliorer votre expérience. En continuant à visiter ce site, vous acceptez notre utilisation des cookies.",
     "accept": "Accepter",
     "decline": "Refuser"
+  },
+  "pricing": {
+    "title": "Tarification & Modèle d'Accès aux Fonctionnalités",
+    "subtitle": "Choisissez le forfait qui vous convient le mieux",
+    "fullLicense": {
+      "title": "Licence Complète (Tout Compris)",
+      "price": "$X/utilisateur/mois",
+      "description": "Coût plus élevé pour un accès complet à la plateforme",
+      "includes": "Inclut Tous les Modules :",
+      "features": [
+        "Authentification & Gestion des Rôles",
+        "Tableau de Bord",
+        "Panneau d'Administration (Gestion des Utilisateurs & Licences)",
+        "Registre des Risques",
+        "Plan d'Audit & Journal des Constatations",
+        "Suivi des Incidents",
+        "Gestionnaire de Politiques",
+        "Gestionnaire de Tâches",
+        "Listes de Vérification (Alimentation, Santé, etc.)",
+        "Surveillance Continue de la Conformité",
+        "Copilote IA (Insights, Assistant d'Audit)",
+        "Système de Notification (Email/SMS/Push)",
+        "Rapports (Téléchargeables/Exportables)"
+      ]
+    },
+    "baseLicense": {
+      "title": "Licence de Base + Modules Complémentaires",
+      "basePrice": "$Y Base/utilisateur/mois",
+      "includes": "Inclut :",
+      "baseFeatures": [
+        "Authentification & Gestion des Rôles",
+        "Tableau de Bord",
+        "Panneau d'Administration",
+        "Système de Notification",
+        "Rapports"
+      ],
+      "addOns": {
+        "title": "Modules Complémentaires (Chacun à $Y/utilisateur/mois) :",
+        "features": [
+          "Registre des Risques",
+          "Plan d'Audit & Journal des Constatations",
+          "Suivi des Incidents",
+          "Gestionnaire de Politiques",
+          "Gestionnaire de Tâches",
+          "Listes de Vérification (Sécurité Alimentaire, Conformité Santé)",
+          "Surveillance Continue de la Conformité",
+          "Copilote IA (Insights & Assistant d'Audit)"
+        ]
+      }
+    },
+    "cta": "Commencer",
+    "contact": "Contacter les Ventes"
   }
 } 

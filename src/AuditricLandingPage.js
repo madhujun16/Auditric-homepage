@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import DemoRequestForm from "./components/DemoRequestForm";
 import LanguageSwitcher from "./components/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
+import PricingSection from './components/PricingSection';
 
 // Advanced UI Components
 const FloatingCard = ({ children, className = "" }) => (
@@ -797,6 +798,9 @@ export default function AuditricLandingPage() {
         </div>
       </motion.section>
 
+      {/* Add Pricing Section before the footer */}
+      <PricingSection />
+      
       {/* Footer */}
       <footer className="px-6 py-10 bg-gray-900 text-gray-300 text-center shadow-2xl relative z-10">
         <p className="text-sm">{t('footer.copyright')}</p>
